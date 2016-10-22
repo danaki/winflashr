@@ -1,4 +1,4 @@
-`beepr`: Easily Play Notification Sounds on any Platform
+`winflashr`: Blink Rstudio window in Windows taskbar
 ========================================================
 
 `winflashr` is an R package that contains one function, `winflash()`, with one purpose to make you Rstudio blink from rsession. May be usefull to signal the end of a long running comand.
