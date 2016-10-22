@@ -31,5 +31,5 @@ Details
 ### Examples
 
 ```
-beep(10)
+winflash(10)
 ```
