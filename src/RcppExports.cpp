@@ -5,13 +5,13 @@
 
 using namespace Rcpp;
 
-// winflashr
-void winflashr(int count);
-RcppExport SEXP winflashr_winflashr(SEXP countSEXP) {
+// winflash
+void winflash(int count);
+RcppExport SEXP winflashr_winflash(SEXP countSEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< int >::type count(countSEXP);
-    winflashr(count);
+    winflash(count);
     return R_NilValue;
 END_RCPP
 }

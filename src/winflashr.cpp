@@ -72,11 +72,12 @@ ULONG_PTR get_parent_process_id()
     return (ULONG_PTR)-1;
 }
 
-//’ Make Rstudio window blink
-//’
-//’ @param count number of times to blink
+//' @title Make Rstudio window blink
+//' @param count number of times to blink
+//' @examples
+//' winflash(10)
 // [[Rcpp::export]]
-void winflashr(int count = 1)
+void winflash(int count = 1)
 {
     HWND w = find_main_window(get_parent_process_id());
 
